@@ -1,0 +1,76 @@
+# --- Python specific ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.sqlite3
+*.db
+*.egg-info/
+*.env
+*.venv
+
+# --- Virtual environments ---
+depth_env/
+env/
+venv/
+
+# --- Jupyter/IPython ---
+.ipynb_checkpoints/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# --- Output files and data ---
+output/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+*.npy
+
+# Model files and caches
+models/
+*.pt
+*.pth
+*.h5
+*.*
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --- Build and dist folders ---
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# --- Cache files ---
+.cache/
+pip-wheel-metadata/
+*.tfrecord
+*.tensorboard-info/
+
+# --- HuggingFace / Transformers cache ---
+~/.cache/huggingface/
+~/.huggingface/
+
+# Don't ignore everything else
+!.gitignore
+!*.py
+!scripts/
+!main.py
+!README.md
+!Requirements.txt
+!Requirements_.txt
